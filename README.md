@@ -18,6 +18,8 @@ https://mizuy.github.io/bibwatch-feed/feeds/1727b064-fca2-4a61-ac39-d04984c1dcd5
 https://mizuy.github.io/bibwatch-feed/feeds/1727b064-fca2-4a61-ac39-d04984c1dcd5/authors.xml
 https://mizuy.github.io/bibwatch-feed/feeds/1727b064-fca2-4a61-ac39-d04984c1dcd5/endo-cea.xml
 https://mizuy.github.io/bibwatch-feed/feeds/1727b064-fca2-4a61-ac39-d04984c1dcd5/braf-crc.xml
+https://mizuy.github.io/bibwatch-feed/feeds/1727b064-fca2-4a61-ac39-d04984c1dcd5/sps.xml
+https://mizuy.github.io/bibwatch-feed/feeds/1727b064-fca2-4a61-ac39-d04984c1dcd5/tsa.xml
 ```
 
 | feed | 内容 |
@@ -31,6 +33,8 @@ https://mizuy.github.io/bibwatch-feed/feeds/1727b064-fca2-4a61-ac39-d04984c1dcd5
 | authors | 指定著者 |
 | endo-cea | 消化管内視鏡の費用対効果（雑誌不問） |
 | braf-crc | BRAF陽性大腸癌（雑誌不問） |
+| sps | serrated polyposis syndrome（雑誌不問） |
+| tsa | traditional serrated adenoma（雑誌不問） |
 
 Pages がまだなら raw:
 
