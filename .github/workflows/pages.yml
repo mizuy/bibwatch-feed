@@ -25,7 +25,8 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/configure-pages@v5
+      # configure-pages requires the site to already exist unless enablement
+      # is used with a PAT. Static XML does not need generator config.
       - uses: actions/upload-pages-artifact@v3
         with:
           path: docs
