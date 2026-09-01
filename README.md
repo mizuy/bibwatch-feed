@@ -4,22 +4,34 @@
 
 GitHub の無料プランは private repo に Pages を置けないため、feed XML だけこの public repo から配信する。
 
-## GitHub Pages
+## 購読 URL（コピー用）
 
-GitHub Pages: **`main` / `/docs`**。`docs/feeds/<token>/all.xml` をこの public repo から配信する。
-
-購読 URL（Inoreader 等）:
+RSS リーダーにそのまま貼る。同じ一覧は https://mizuy.github.io/bibwatch-feed/ にもある。一括取込は [OPML](https://mizuy.github.io/bibwatch-feed/bibwatch.opml)。
 
 ```
-https://mizuy.github.io/bibwatch-feed/feeds/<token>/all.xml
+https://mizuy.github.io/bibwatch-feed/feeds/1727b064-fca2-4a61-ac39-d04984c1dcd5/all.xml
+https://mizuy.github.io/bibwatch-feed/feeds/1727b064-fca2-4a61-ac39-d04984c1dcd5/priority.xml
+https://mizuy.github.io/bibwatch-feed/feeds/1727b064-fca2-4a61-ac39-d04984c1dcd5/major-gi.xml
+https://mizuy.github.io/bibwatch-feed/feeds/1727b064-fca2-4a61-ac39-d04984c1dcd5/susa.xml
+https://mizuy.github.io/bibwatch-feed/feeds/1727b064-fca2-4a61-ac39-d04984c1dcd5/rspo.xml
+https://mizuy.github.io/bibwatch-feed/feeds/1727b064-fca2-4a61-ac39-d04984c1dcd5/pccrc.xml
+https://mizuy.github.io/bibwatch-feed/feeds/1727b064-fca2-4a61-ac39-d04984c1dcd5/authors.xml
 ```
 
-`<token>` は `bibwatch-data` の `state/feed-token`（この README には書かない）。
+| feed | 内容 |
+|------|------|
+| all | テーマ論文（指定誌を先に） |
+| priority | 指定誌だけ |
+| major-gi | Lancet / NEJM / Nature / Science / Cell / Lancet Oncology / JAMA Internal Medicine / JAMA Oncology の GI |
+| susa | Superficially serrated adenoma |
+| rspo | RSPO / R-spondin |
+| pccrc | Post-colonoscopy colorectal cancer |
+| authors | 指定著者 |
 
-Pages 反映前は raw でも取れる:
+Pages がまだなら raw:
 
 ```
-https://raw.githubusercontent.com/mizuy/bibwatch-feed/main/docs/feeds/<token>/all.xml
+https://raw.githubusercontent.com/mizuy/bibwatch-feed/main/docs/feeds/1727b064-fca2-4a61-ac39-d04984c1dcd5/all.xml
 ```
 
 ## 更新
