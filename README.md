@@ -24,4 +24,6 @@ https://raw.githubusercontent.com/mizuy/bibwatch-feed/main/docs/feeds/<token>/al
 
 ## 更新
 
-`bibwatch run --site-base https://mizuy.github.io/bibwatch-feed` が `BIBWATCH_FEED` 経由で `docs/feeds/<token>/all.xml` を書き、この repo へ push する。
+`bibwatch run --site-base https://mizuy.github.io/bibwatch-feed` が `BIBWATCH_FEED` 経由で `docs/feeds/<token>/*.xml` を書き、この repo の **`main`** へ push する（Pages は `main` / `/docs`）。
+
+定期実行は Cursor Automation（手順とプロンプトは [bibwatch/AUTOMATION.md](https://github.com/mizuy/bibwatch/blob/main/AUTOMATION.md)）。cron 環境にこの repo を含める。
