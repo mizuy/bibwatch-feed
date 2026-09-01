@@ -13,6 +13,7 @@
       <outline type="rss" text="PCCRC" title="PCCRC" xmlUrl="https://mizuy.github.io/bibwatch-feed/feeds/1727b064-fca2-4a61-ac39-d04984c1dcd5/pccrc.xml" htmlUrl="https://mizuy.github.io/bibwatch-feed/"/>
       <outline type="rss" text="Authors" title="Authors" xmlUrl="https://mizuy.github.io/bibwatch-feed/feeds/1727b064-fca2-4a61-ac39-d04984c1dcd5/authors.xml" htmlUrl="https://mizuy.github.io/bibwatch-feed/"/>
       <outline type="rss" text="Endoscopy CEA" title="Endoscopy CEA" xmlUrl="https://mizuy.github.io/bibwatch-feed/feeds/1727b064-fca2-4a61-ac39-d04984c1dcd5/endo-cea.xml" htmlUrl="https://mizuy.github.io/bibwatch-feed/"/>
+      <outline type="rss" text="BRAF+ CRC" title="BRAF+ CRC" xmlUrl="https://mizuy.github.io/bibwatch-feed/feeds/1727b064-fca2-4a61-ac39-d04984c1dcd5/braf-crc.xml" htmlUrl="https://mizuy.github.io/bibwatch-feed/"/>
     </outline>
   </body>
 </opml>
