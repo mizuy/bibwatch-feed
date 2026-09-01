@@ -6,7 +6,7 @@ GitHub の無料プランは private repo に Pages を置けないため、feed
 
 ## GitHub Pages
 
-Settings → Pages → **`main` / `/docs`** を有効にする。
+`docs/` を GitHub Actions（`.github/workflows/pages.yml`）で公開する。
 
 購読 URL（Inoreader 等）:
 
