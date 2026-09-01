@@ -6,7 +6,7 @@ GitHub の無料プランは private repo に Pages を置けないため、feed
 
 ## GitHub Pages
 
-`docs/` を GitHub Actions（`.github/workflows/pages.yml`）で公開する。
+GitHub Pages: **`main` / `/docs`**。`docs/feeds/<token>/all.xml` をこの public repo から配信する。
 
 購読 URL（Inoreader 等）:
 
