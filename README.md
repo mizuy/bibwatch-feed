@@ -26,7 +26,7 @@ https://mizuy.github.io/bibwatch-feed/feeds/1727b064-fca2-4a61-ac39-d04984c1dcd5
 |------|------|
 | all | テーマ論文（指定誌を先に） |
 | priority | 指定誌だけ |
-| major-gi | Lancet / NEJM / Nature / Science / Cell / Lancet Oncology / JAMA Internal Medicine / JAMA Oncology の GI |
+| major-gi | 上記誌の消化管腔 GI（肝胆膵は除く） |
 | susa | Superficially serrated adenoma |
 | rspo | RSPO / R-spondin |
 | pccrc | Post-colonoscopy colorectal cancer |
